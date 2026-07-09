@@ -1,13 +1,11 @@
 const numeroSenha = document.querySelector('.parametro-senha__texto');
-let tamanhoSenha = 12;
-let tamanhoSenha = 12;
+let = 12;
+let = 12;
 numeroSenha.textContent = tamanhoSenha;
 const botoes = document.querySelectorAll('.parametro-senha__botao');
 const numeroSenha = document.querySelector('.parametro-senha__texto');
-let tamanhoSenha = 12;
+let = 12;
 numeroSenha.textContent = tamanhoSenha;
-
-const botoes = document.querySelectorAll('.parametro-senha__botao');
 
 console.log(botoes)
 botoes[0].onclick = diminuiTamanho;
@@ -56,14 +54,11 @@ function aumentaTamanho(){
 }
 
 const campoSenha = document.querySelector('#campo-senha');
-const letrasMaiusculas = 'ABCDEFGHIJKLMNOPQRSTUVXYWZ';
-const letrasMaiusculas = 'ABCDEFGHIJKLMNOPQRSTUVXYWZ';
 campoSenha.value = letrasMaiusculas;
 function geraSenha(){
     let numeroAleatorio = Math.random()*letrasMaiusculas.length;
     console.log(numeroAleatorio);
 }
-const letrasMaiusculas = 'ABCDEFGHIJKLMNOPQRSTUVXYWZ';
 geraSenha();
 function geraSenha(){
     let numeroAleatorio = Math.random()*letrasMaiusculas.length;
@@ -124,18 +119,10 @@ function geraSenha(){
     }
     campoSenha.value = senha;
 }
-const checkbox = document.querySelectorAll('.checkbox');
 const campoSenha = document.querySelector('#campo-senha');
-const checkbox = document.querySelectorAll('.checkbox');
 console.log(checkbox[0].checked);
-const letrasMinusculas = 'abcdefghijklmnopqrstuvxywz';
-const numeros = '0123456789';
-const simbolos = '!@%*?';
-let alfabeto = '';
-let alfabeto = '';
 if (checkbox[0].checked){
 }
-let alfabeto = '';
 if (checkbox[0].checked){
     alfabeto = alfabeto + letrasMaiusculas;
 }
@@ -265,7 +252,6 @@ function classificaSenha(){
         forcaSenha.classList.add('fraca');
     }
 }
-let entropia = tamanhoSenha * Math.log2(alfabeto.length);
 console.log(entropia);
 function geraSenha() {
     let alfabeto = '';
@@ -330,7 +316,6 @@ function classificaSenha(tamanhoAlfabeto){
         forcaSenha.classList.add('fraca');
     }
 }
-const valorEntropia = document.querySelector('.entropia');
 const valorEntropia = document.querySelector('.entropia');
 valorEntropia.textContent = 2**Math.floor(entropia);
 const valorEntropia = document.querySelector('.entropia');
